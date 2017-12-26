@@ -7,6 +7,22 @@
 
 /* MY CODE BELOW */
 
+header, footer, main {
+	padding-left: 300px;
+}
+@media (max-width: 992px){
+	header, footer, main {
+		padding-left:0;
+	}
+}
+
+.full-width-margin {
+	margin-left: 0;
+	margin-right: 0;
+	max-width: none;
+	width: 100%;
+}
+
 .background-fixed {
     background-attachment: fixed;
 }
@@ -16,7 +32,7 @@
     background-size: cover;
 }
 .background-c0 {
-    background: url('../resource/img/background-c0.png');    
+    background-image: url(../resource/img/background-c0.png);    
     background-color: lightgrey;
 }
 .background-c1 {

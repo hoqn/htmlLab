@@ -10,26 +10,36 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-  <nav class="blue-grey" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">HOKYUN JEON</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="https://github.com/akzm9999/">Github</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="https://github.com/akzm9999/">Github</a></li>
-        <li><a href="#profile"><i class="material-icons left">person</i>프로필</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-  <div class="section no-pad-bot" id="index-banner">
+	
+<body>	
+	
+	<header>
+		<div class="navbar-fixed">
+  	<nav class="top-nav blue-grey">
+    	<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">HOKYUN JEON</a>
+      	<ul class="right hide-on-med-and-down">
+        	<li><a href="https://github.com/akzm9999/">Github</a></li>
+      	</ul>
+			
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+  	</nav>
+		</div>
+		<ul id="nav-mobile" class="side-nav fixed">
+					<li><a href="https://github.com/akzm9999/">Github</a></li>
+					<li><a href="#profile"><i class="material-icons left">person</i>프로필</a></li>
+				</ul>
+		
+	</header>
+  
+	<main>
+	<div id="content" class="container full-width-margin">
+		<div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
-      <h1 class="header center black-text">Hokyun Jeon</h1>
-      <div class="row center">
-        <h5 class="header col s12 light grey-text">대한민국 출신의<br><br>고등학생, 디자이너, 그리고 개발자</h5>
+    	<br><br>
+        <h1 class="header center black-text">Hokyun Jeon</h1>
+          <div class="row center">
+          <h5 class="header col s12 light grey-text">대한민국 출신의<br><br>고등학생, 디자이너, 그리고 개발자</h5>
       </div>
       <div class="row center">
         <a href="#profile" id="more-button" class="btn-large waves-effect waves-light indigo"><i class="material-icons left">people</i>더 알아보기</a>
@@ -38,25 +48,22 @@
 
     </div>
   </div>
-    
-  <div id="profile" class="section no-pad-bot background-c0 background-setting-i0 background-fixed">
+  
+	
+  <div id="profile" class="section background-c0 background-setting-i0 background-fixed">
     <div class="container">
-      <div class="row">
-        <div class="col s6 m7" style="margin-left: auto; margin-right: auto;">
-          <div class="card hoverable" style="max-width: 360px;">
-            <div class="center blue-grey" style="padding: 15px">
-              <img class="circle" src="resource/img/profile-p0.png" style="max-width: 150px; width: 60%;height: auto"><br>
-              <span class="card-title white-text">Hokyun Jeon</span>
-            </div>
-            <div class="card-content">
-              <p>안녕하세요. 저는 전호균입니다!<br><br>이 사이트는 사실 Materialize를 사용해보고 싶은 마음에 시작된 사이트입니다. 이 글도 어쩔 수 없이 쓰는 중이죠. 뭔가 있어 보이도록 길게 쓰려고 노력 중입니다. 사실 아래에 링크되어 있는 블로그도 운영 안하고 Github도 거의 안하지만 있어 보이려고 해놓은 거랍니다.</p>
-            </div>
-            <div class="card-action">
-              <a class="indigo-text" href="http://akzm9999.blog.me/">Blog</a>
-              <a class="indigo-text" href="https://github.com/akzm9999/">Github</a>
-              <a class="indigo-text" href="akzm9999@gmail.com">Mail</a>
-            </div>
-          </div>
+      <div class="card hoverable" style="max-width: 360px; margin-left: auto; margin-right: auto;">
+        <div class="center blue-grey" style="padding: 15px">
+        	<img class="circle" src="resource/img/profile-p0.png" style="max-width: 150px; width: 60%;height: auto"><br>
+          <span class="card-title white-text">Hokyun Jeon</span>
+        </div>
+        <div class="card-content">
+        	<p>안녕하세요. 저는 전호균입니다!<br><br>이 사이트는 사실 Materialize를 사용해보고 싶은 마음에 시작된 사이트입니다. 이 글도 어쩔 수 없이 쓰는 중이죠. 뭔가 있어 보이도록 길게 쓰려고 노력 중입니다. 사실 아래에 링크되어 있는 블로그도 운영 안하고 Github도 거의 안하지만 있어 보이려고 해놓은 거랍니다.</p>
+        </div>
+        <div class="card-action">
+        	<a class="indigo-text" href="http://akzm9999.blog.me/">Blog</a>
+          <a class="indigo-text" href="https://github.com/akzm9999/">Github</a>
+          <a class="indigo-text" href="akzm9999@gmail.com">Mail</a>
         </div>
       </div>
     </div>
@@ -145,12 +152,15 @@
       </div>
     </div>
   </footer>
-
+		
+	</div>
+	</main>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+	
+	
   </body>
 </html>
