@@ -1,0 +1,16 @@
+.bg-main0{
+	background-color: #0D0B33;
+}
+.bg-main1{
+	background-color: #14114F;
+}
+.bg-maingr{
+	background: linear-gradient(to left, #0D0B33, #14114F);
+}
+.bg-red {
+	background-color: #641E2D;
+}
+
+.bg-footer {
+	background: rgba(0,0,0, 0.2);
+}
