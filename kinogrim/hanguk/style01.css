@@ -6,7 +6,7 @@ html *{
 }
 
 .logo-img {
-	height: 56px;
+	height: 1.7em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -51,4 +51,47 @@ margin-0 {
 }
 .navfirst {
 	margin-bottom: 1.5em;
+	width: 100%;
+}
+
+#namefield{
+	font-size: 1.1rem;
+	
+	margin-left: 1em;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+#pointfield{
+	color: grey;
+	font-size: 1rem;
+	
+	margin-left: 2em;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+#profile{
+	padding: 0.5em;
+}
+#profile .btn-profile {
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 0;
+}
+#profile-buttons {
+	text-align: right;
+}
+#profile-buttons a {
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	color: black;
+}
+#profile-buttons a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+#menubtn {
+	position: relative;
+	left: 20%;
 }

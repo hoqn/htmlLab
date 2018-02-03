@@ -4,8 +4,12 @@
 }
 
 #mainbanner img {
-	
 	height: 40vh;
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 
@@ -20,6 +24,8 @@
 }
 #mainbanner .carousel-item {
 	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 #movielist h4 {
@@ -35,7 +41,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgb(0,0,0, 0.75);
+  background-color: rgb(0,0,0, 1);
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -53,4 +59,10 @@
 img.profile {
 	height: 3em;
 	border-radius: 50%;
+}
+
+.card-title {
+	color: black;
+	text-align: center;
+	font-size: 1.1rem;
 }
